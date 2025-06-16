@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/images/bg-desktop.svg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+}
+
+.logo {
+    padding: 30px;
+    position: absolute;
+}
+
+.hero {
+    padding: 150px 0px 0px 35px;
+    float: left;
+}
+
+.main {
+    width: 400px;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main p {
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.main button {
+    width: 170px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main:hover button {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+
+.attribution {
+    background-color: hsl(257, 40%, 49%);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.attribution a {
+    color: white;
+}
+
+.sosmed {
+    float: right;
+    position: relative;
+    margin-top: -100px;
+    margin-right: 90px;
+}
+
+.sosmed img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
